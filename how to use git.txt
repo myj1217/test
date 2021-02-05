@@ -1,0 +1,28 @@
+git init -폴더에 깃생성
+git remote add origin 주소 -폴더와 연결
+git pull origin master -저장소에 있는파일들 로컬로 가져오기
+
+git status-깃과의 상태를 확인
+git add .-로컬저장소와 repository사이 변경점을 tracking
+git commit -m "메세지"-변경 사항을 업로드했을때 메세지남김
+git push origin master-깃에 push
+
+git remote rm origin-기존 remote 경로 삭제
+git rm [파일및 폴더명]-원격 저장소와 로컬 저장소에 있는파일 삭제
+git rm -rf [파일및 폴더명]-위에꺼 안되면
+git rm -r --cached [파일 및 폴더]-원격저장소만 삭제
+
+git commit -m [파일 및 폴더] 삭제후커밋
+
+
+///초기설정
+
+git config --global user.name "wjdtj9656"
+git config --global user.email "wjdtj9656@naver.com"
+git remote add origin 주소
+
+///////
+git branch 현재 브랜치 목록 확인가능
+git checkout 브랜치명 -브랜치로 이동
+git merge 브랜치명 -브랜치 합치기
+git -d branch 브랜치명 -브랜치삭제
